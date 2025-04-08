@@ -1,0 +1,17 @@
+{
+    "categories": [
+        {"id": 1, "name": "Металлы", "unit": "кг"},
+        {"id": 2, "name": "Комплектующие", "unit": "шт"}
+    ],
+    "materials": [
+        {"id": 1, "name": "Сталь", "category_id": 1},
+        {"id": 2, "name": "Шурупы", "category_id": 2}
+    ],
+    "waybills": [
+        {"id": 1, "date": "2023-01-15"}
+    ],
+    "receipts": [
+        {"id": 1, "material_id": 1, "quantity": 100, "waybill_id": 1}
+    ],
+    "expenses": []
+}

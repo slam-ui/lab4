@@ -1,0 +1,250 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Металлы",
+            "unit": "кг"
+        },
+        {
+            "id": 2,
+            "name": "Электроника",
+            "unit": "шт"
+        },
+        {
+            "id": 3,
+            "name": "Химикаты",
+            "unit": "л"
+        },
+        {
+            "id": 4,
+            "name": "Строительные материалы",
+            "unit": "м3"
+        },
+        {
+            "id": 5,
+            "name": "Комплектующие",
+            "unit": "шт"
+        }
+    ],
+    "expenses": [
+        {
+            "id": 1,
+            "material_id": 0,
+            "quantity": 200,
+            "waybill_id": 0
+        },
+        {
+            "id": 2,
+            "material_id": 0,
+            "quantity": 3,
+            "waybill_id": 0
+        },
+        {
+            "id": 3,
+            "material_id": 0,
+            "quantity": 50,
+            "waybill_id": 0
+        },
+        {
+            "id": 4,
+            "material_id": 0,
+            "quantity": 100,
+            "waybill_id": 0
+        },
+        {
+            "id": 5,
+            "material_id": 0,
+            "quantity": 2,
+            "waybill_id": 0
+        },
+        {
+            "id": 6,
+            "material_id": 0,
+            "quantity": 5,
+            "waybill_id": 0
+        },
+        {
+            "id": 7,
+            "material_id": 0,
+            "quantity": 10,
+            "waybill_id": 0
+        },
+        {
+            "id": 8,
+            "material_id": 0,
+            "quantity": 50,
+            "waybill_id": 0
+        },
+        {
+            "id": 9,
+            "material_id": 0,
+            "quantity": 100,
+            "waybill_id": 0
+        },
+        {
+            "id": 10,
+            "material_id": 0,
+            "quantity": 5,
+            "waybill_id": 0
+        },
+        {
+            "id": 11,
+            "material_id": 1,
+            "quantity": 6,
+            "waybill_id": 7
+        }
+    ],
+    "materials": [
+        {
+            "category_id": 0,
+            "id": 1,
+            "name": "Сталь"
+        },
+        {
+            "category_id": 0,
+            "id": 2,
+            "name": "Компьютер"
+        },
+        {
+            "category_id": 0,
+            "id": 3,
+            "name": "Азотная кислота"
+        },
+        {
+            "category_id": 0,
+            "id": 4,
+            "name": "Алюминий"
+        },
+        {
+            "category_id": 0,
+            "id": 5,
+            "name": "Монитор"
+        },
+        {
+            "category_id": 0,
+            "id": 6,
+            "name": "Бетон"
+        },
+        {
+            "category_id": 0,
+            "id": 7,
+            "name": "Щебень"
+        },
+        {
+            "category_id": 0,
+            "id": 8,
+            "name": "Резина"
+        },
+        {
+            "category_id": 0,
+            "id": 9,
+            "name": "Жидкий кремний"
+        },
+        {
+            "category_id": 0,
+            "id": 10,
+            "name": "Процессор"
+        },
+        {
+            "category_id": 0,
+            "id": 11,
+            "name": "Кабель"
+        }
+    ],
+    "receipts": [
+        {
+            "id": 1,
+            "material_id": 0,
+            "quantity": 500,
+            "waybill_id": 0
+        },
+        {
+            "id": 2,
+            "material_id": 0,
+            "quantity": 10,
+            "waybill_id": 0
+        },
+        {
+            "id": 3,
+            "material_id": 0,
+            "quantity": 200,
+            "waybill_id": 0
+        },
+        {
+            "id": 4,
+            "material_id": 0,
+            "quantity": 300,
+            "waybill_id": 0
+        },
+        {
+            "id": 5,
+            "material_id": 0,
+            "quantity": 5,
+            "waybill_id": 0
+        },
+        {
+            "id": 6,
+            "material_id": 0,
+            "quantity": 10,
+            "waybill_id": 0
+        },
+        {
+            "id": 7,
+            "material_id": 0,
+            "quantity": 20,
+            "waybill_id": 0
+        },
+        {
+            "id": 8,
+            "material_id": 0,
+            "quantity": 150,
+            "waybill_id": 0
+        },
+        {
+            "id": 9,
+            "material_id": 0,
+            "quantity": 300,
+            "waybill_id": 0
+        },
+        {
+            "id": 10,
+            "material_id": 0,
+            "quantity": 20,
+            "waybill_id": 0
+        }
+    ],
+    "waybills": [
+        {
+            "date": "2023-10-01",
+            "id": 1
+        },
+        {
+            "date": "2023-10-15",
+            "id": 2
+        },
+        {
+            "date": "2023-11-01",
+            "id": 3
+        },
+        {
+            "date": "2023-11-20",
+            "id": 4
+        },
+        {
+            "date": "2023-12-01",
+            "id": 5
+        },
+        {
+            "date": "2023-12-15",
+            "id": 6
+        },
+        {
+            "date": "2024-01-01",
+            "id": 7
+        },
+        {
+            "date": "2024-01-15",
+            "id": 8
+        }
+    ]
+}

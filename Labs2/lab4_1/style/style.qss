@@ -1,0 +1,38 @@
+/* Основной фон окна */
+MainWindow {
+    background-color: #f0f0f0;
+    font-family: "Arial";
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+/* Таблицы */
+QTableView {
+    alternate-background-color: #e0e0e0;
+    gridline-color: #cccccc;
+    selection-background-color: #4CAF50;
+    selection-color: white;
+}
+
+/* Вкладки */
+QTabBar::tab {
+    background: #e0e0e0;
+    padding: 8px;
+    border: 1px solid #cccccc;
+}
+
+QTabBar::tab:selected {
+    background: white;
+    font-weight: bold;
+}
